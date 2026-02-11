@@ -37,9 +37,9 @@ const arr2 = generateBigArray(100000);
 const arr3 = generateBigArray(10000000);
 
 console.time("binarySearch arr3");
-console.log(binarySearch(123456789));
+console.log(binarySearch(arr3, 123456789));
 console.timeEnd("binarySearch arr3");
 
 console.time("linearSearch arr3");
-console.log(linearSearch(123456789));
+console.log(linearSearch(arr3, 123456789));
 console.timeEnd("linearSearch arr3");
